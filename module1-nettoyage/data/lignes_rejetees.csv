@@ -1,0 +1,3 @@
+﻿type_document,raison,contenu
+deports_instances_municipales,champ essentiel manquant,"{'Date': '2023-09-18', 'Collectivité': '', 'Instance': '', 'Numero delib': '', 'Titre délib': '', 'Rapporteur': '', 'ID élu': '', 'Elu': '', 'FONCTION': '', 'Theme déport': '', 'DELIB_URL': '', 'Observations': ''}"
+deports_instances_municipales,champ essentiel manquant,"{'Date': '2023-09-18', 'Collectivité': 'Ville de Rennes', 'Instance': 'Conseil Municipal', 'Numero delib': '2023_0296', 'Titre délib': 'Administration générale – Désignation de représentants dans divers organismes extérieurs – Modification', 'Rapporteur': 'M HERVE', 'ID élu': '', 'Elu': '', 'FONCTION': '', 'Theme déport': 'Désignation', 'DELIB_URL': '', 'Observations': ''}"
