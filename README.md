@@ -12,32 +12,25 @@ Plutôt que de traiter un seul cas d'usage en profondeur, ce projet couvre l'ens
 | # | Module | Description |
 |---|--------|--------------|
 | 1 | Nettoyage / GED | Extraction et nettoyage de documents municipaux (délibérations, comptes-rendus) |
-| 2 | Connecteurs automatisés | Automatisation de la récupération de données depuis différentes sources |
+| 2 | Connecteurs automatisés | Automatisation de la récupération de données depuis différentes sources (MySQL, Excel, API open data) |
 | 3 | Dashboard Power BI | Tableau de bord de pilotage à partir des données nettoyées |
 | 4 | OCR archives | Numérisation et extraction de texte depuis des documents scannés |
 | 5 | Transcription / synthèse | Transcription et résumé automatique de réunions |
-| 6 | RAG + interface | Base de connaissances interrogeable en langage naturel, avec une petite interface |
+| 6 | RAG + interface | Base de connaissances interrogeable en langage naturel, avec une interface Streamlit |
 
 ## Stack technique
 
 - **Langage** : Python
 - **Traitement de données** : Pandas
+- **Nettoyage de texte** : ftfy, python-slugify
+- **Base interne** : MySQL
 - **Visualisation** : Power BI
-- **OCR** : Tesseract (ou équivalent)
-- **RAG** : découpage de texte, recherche par similarité, API LLM
-- **Interface** : Streamlit ou FastAPI
-
-## Avancement
-
-Suivi détaillé des tâches sur le tableau Jira du projet.
-
-- [ ] Module 1 — Nettoyage / GED
-- [ ] Module 2 — Connecteurs automatisés
-- [ ] Module 3 — Dashboard Power BI
-- [ ] Module 4 — OCR archives
-- [ ] Module 5 — Transcription / synthèse
-- [ ] Module 6 — RAG + interface
+- **OCR** : Tesseract (pytesseract)
+- **Transcription** : Whisper
+- **RAG** : ChromaDB (base vectorielle), Ollama (embeddings + LLM local)
+- **Génération PDF** : reportlab
+- **Interface** : Streamlit
 
 ## Statut
 
-🚧 Projet en cours de développement.
+Les 6 modules sont fonctionnels.

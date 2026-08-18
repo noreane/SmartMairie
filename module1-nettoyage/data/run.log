@@ -1,11 +1,11 @@
-2026-08-15 01:23:23,608 - INFO - deliberations : 1798 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,147 - INFO - deports_instances_municipales : 1576 classé(s), 0 doublon(s) ignoré(s), 2 ligne(s) rejetée(s)
-2026-08-15 01:23:28,154 - INFO - demandes_urbanisme : 3 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,163 - INFO - etat_civil : 3 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,176 - INFO - subventions_associations : 4 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,387 - INFO - ecoles_rennes : 89 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,390 - INFO - courriers_ocr : 1 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,455 - INFO - transcriptions : 2 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
-2026-08-15 01:23:28,456 - INFO - Fichier de métadonnées généré : module1-nettoyage/data/metadonnees.csv
-2026-08-15 01:23:28,458 - INFO - Fichier des lignes rejetées généré : module1-nettoyage/data/lignes_rejetees.csv
-2026-08-15 01:23:28,459 - INFO - Log complet du run : module1-nettoyage/data/run.log
+2026-08-18 00:12:16,762 - INFO - deliberations : 1798 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:25,410 - INFO - deports_instances_municipales : 1576 classé(s), 0 doublon(s) ignoré(s), 2 ligne(s) rejetée(s)
+2026-08-18 00:12:25,487 - INFO - demandes_urbanisme : 3 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:25,541 - INFO - etat_civil : 3 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:25,605 - INFO - subventions_associations : 4 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:25,932 - INFO - ecoles_rennes : 89 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:26,000 - INFO - courriers_ocr : 1 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:26,240 - INFO - transcriptions : 2 classé(s), 0 doublon(s) ignoré(s), 0 ligne(s) rejetée(s)
+2026-08-18 00:12:26,242 - INFO - Fichier de métadonnées généré : module1-nettoyage/data/metadonnees.csv
+2026-08-18 00:12:26,244 - INFO - Fichier des lignes rejetées généré : module1-nettoyage/data/lignes_rejetees.csv
+2026-08-18 00:12:26,246 - INFO - Log complet du run : module1-nettoyage/data/run.log

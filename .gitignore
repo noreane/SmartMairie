@@ -1,0 +1,11 @@
+# Base vectorielle générée
+module6-rag/chroma_db/
+
+# Caches Python
+__pycache__/
+*.pyc
+
+
+# Fichiers temporaires Windows
+Thumbs.db
+desktop.ini

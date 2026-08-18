@@ -99,7 +99,7 @@ logger = logging.getLogger("classement")
 
 
 def configurer_logging():
-    """Log à la fois dans la console et dans un fichier run.log persistant."""
+   # Log à la fois dans la console et dans un fichier run.log persistant
     logger.setLevel(logging.INFO)
     formatteur = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 
@@ -117,7 +117,7 @@ def configurer_logging():
 
 
 def extraire_annee(date_brute):
-    """Extrait l'année d'une date, quel que soit le format d'origine (YYYY-MM-DD, DD/MM/YYYY, DD-MM-YYYY). Retourne None si le format est inconnu."""
+    # Extrait l'année d'une date, quel que soit le format d'origine (YYYY-MM-DD, DD/MM/YYYY, DD-MM-YYYY). Retourne None si le format est inconnu
     for fmt in FORMATS_DATE:
         try:
             return str(datetime.strptime(date_brute, fmt).year)
@@ -127,7 +127,7 @@ def extraire_annee(date_brute):
 
 
 def nettoyer_texte(texte):
-    """Volet 2 — nettoyage textuel appliqué à chaque valeur de chaque ligne."""
+    # Volet 2 — nettoyage textuel appliqué à chaque valeur de chaque ligne
     if not texte:
         return texte
     texte = ftfy.fix_text(texte)          # corrige les problèmes d'encodage
@@ -137,15 +137,12 @@ def nettoyer_texte(texte):
 
 
 def ligne_valide(ligne, config):
-    """Volet 2 — détecte les lignes incomplètes (champs essentiels manquants),
-    qui seront écartées et tracées dans lignes_rejetees.csv."""
+    # Volet 2 — détecte les lignes incomplètes (champs essentiels manquants)
     champs_essentiels = [config["colonne_date"], config["colonne_matiere"], config["colonne_id"]]
     return all(ligne.get(champ) for champ in champs_essentiels)
 
-
 def classer_fichiers(config, ecrivain_meta, ecrivain_rejets):
-    """Lit une source CSV, nettoie chaque ligne (Volet 2), puis la range dans
-    l'arborescence GED avec un nom standardisé (Volet 1)."""
+    # Lit une source CSV, nettoie chaque ligne (Volet 2), puis la range dans l'arborescence GED avec un nom standardisé (Volet 1)
     if not os.path.exists(DOSSIER_CLASSE):
         os.makedirs(DOSSIER_CLASSE)
 
